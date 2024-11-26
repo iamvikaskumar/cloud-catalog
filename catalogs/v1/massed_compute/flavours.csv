@@ -1,4 +1,4 @@
-InstanceType,GpuName,GpuCount,GpuMemoryGB,GPUInfo
+InstanceType,GpuName,GpuCount,GpuMemoryGB
 gpu_1x_a100,A100_80GB_PCIe,1,80
 gpu_2x_a100,A100_80GB_PCIe,2,80
 gpu_4x_a100,A100_80GB_PCIe,4,80
