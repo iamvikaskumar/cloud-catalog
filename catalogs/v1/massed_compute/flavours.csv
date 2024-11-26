@@ -1,0 +1,6 @@
+InstanceType,GpuName,GpuCount,GpuMemoryGB,GPUInfo
+gpu_1x_a100,A100_80GB_PCIe,1,80
+gpu_2x_a100,A100_80GB_PCIe,2,80
+gpu_4x_a100,A100_80GB_PCIe,4,80
+gpu_8x_a100,A100_80GB_PCIe,8,80
+gpu_8x_A100_SXM4,A100_80GB_SXM,8,80
