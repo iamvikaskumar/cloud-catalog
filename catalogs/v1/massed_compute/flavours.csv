@@ -1,6 +1,30 @@
-InstanceType,GpuName,GpuCount,GpuMemoryGB,GPUInfo
-gpu_1x_a100,A100_80GB_PCIe,1,80
-gpu_2x_a100,A100_80GB_PCIe,2,80
-gpu_4x_a100,A100_80GB_PCIe,4,80
-gpu_8x_a100,A100_80GB_PCIe,8,80
-gpu_8x_A100_SXM4,A100_80GB_SXM,8,80
+InstanceType,GpuType,GpuCount,NVlink,GpuInfo
+gpu_1x_a6000,RTX-A6000,1,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_2x_a6000,RTX-A6000,2,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_4x_a6000,RTX-A6000,4,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_8x_a6000,RTX-A6000,8,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_1x_h100,H100,1,FALSE,"{'name': 'H100','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_2x_h100,H100,2,FALSE,"{'name': 'H100','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_4x_h100,H100,4,FALSE,"{'name': 'H100','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_8x_h100,H100,8,FALSE,"{'name': 'H100','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_1x_l40,L40,1,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_2x_l40,L40,2,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_4x_l40,L40,4,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_1x_a5000,RTX-A5000,1,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_2x_a5000,RTX-A5000,2,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_4x_a5000,RTX-A5000,4,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_8x_a5000,RTX-A5000,8,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_1x_l40s,L40S,1,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_2x_l40s,L40S,2,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_4x_l40s,L40S,4,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_8x_l40s,L40S,8,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_1x_a100,A100-(80GB),1,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_2x_a100,A100-(80GB),2,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_4x_a100,A100-(80GB),4,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_8x_a100,A100-(80GB),8,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_1x_A30,NVIDIA-A30,1,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_2x_A30,NVIDIA-A30,2,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_4x_A30,NVIDIA-A30,4,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_8x_A30,NVIDIA-A30,8,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_8x_A100_SXM4,A100-SXM4-(80GB),8,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
+gpu_8x_H100_SXM5,H100-SXM5-(80GB),8,FALSE,"{'name': 'RTX A6000','manufacturer': 'NVIDIA','memoryInfo':{'sizeInMiB': 49152}}"
